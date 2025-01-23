@@ -39,14 +39,14 @@ let result2 = first() || second();
 console.log("Result:", result2);
 
 //task 45
-let d = 0;
-let e = "Hello"; 
-let andResult = d && e; 
-console.log("AND (d && e):", andResult);
-let orResult = d || e; 
-console.log("OR (d || e):", orResult); 
-let notResultA = !d;  
-let notResultB = !e;  
-console.log("NOT (!d):", notResultA); 
-console.log("NOT (!e):", notResultB); 
+let a = 0;
+let b = "Hello"; 
+let andResult = a && b; 
+console.log("AND (a && b):", andResult);
+let orResult = a || b; 
+console.log("OR (a || b):", orResult); 
+let notResultA = !a;  
+let notResultB = !b;  
+console.log("NOT (!a):", notResultA); 
+console.log("NOT (!b):", notResultB); 
 
